@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fictional Product</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- Header (Tailwind CSS) -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold text-gray-700">FictionalCo</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li class="relative group">
+            <a href="#" class="text-gray-600 hover:text-gray-900">Products</a>
+            <div class="absolute top-8 left-0 bg-white shadow-md rounded-lg hidden group-hover:block">
+              <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Product 1</a>
+              <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Product 2</a>
+            </div>
+          </li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900">Pricing</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section (Tailwind CSS) -->
+  <section class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-16 text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold mb-4">Transform Your Workflow</h2>
+      <p class="text-lg mb-8">Experience the power of our state-of-the-art platform to boost your productivity.</p>
+      <a href="#features" class="bg-white text-blue-600 px-6 py-3 rounded-full font-bold hover:bg-gray-200">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Features Section (Tailwind CSS) -->
+  <section id="features" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center text-gray-700 mb-12">Features</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center bg-white p-6 shadow-md rounded-lg">
+          <div class="mb-4">
+            <i class="text-indigo-500 text-6xl bi bi-lightning-fill"></i>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Fast</h4>
+          <p>Experience lightning-fast performance in all your tasks.</p>
+        </div>
+        <div class="text-center bg-white p-6 shadow-md rounded-lg">
+          <div class="mb-4">
+            <i class="text-indigo-500 text-6xl bi bi-lock-fill"></i>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Secure</h4>
+          <p>Your data is protected with top-notch security measures.</p>
+        </div>
+        <div class="text-center bg-white p-6 shadow-md rounded-lg">
+          <div class="mb-4">
+            <i class="text-indigo-500 text-6xl bi bi-palette-fill"></i>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Customizable</h4>
+          <p>Tailor our platform to your specific needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials (Bootstrap) -->
+  <section class="py-16 bg-light">
+    <div class="container">
+      <h3 class="text-center mb-12">What Our Users Say</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"This product completely changed how we work!"</p>
+              <footer class="blockquote-footer">John Doe</footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"Highly recommend it to anyone looking for efficiency."</p>
+              <footer class="blockquote-footer">Jane Smith</footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"Amazing features and great customer support."</p>
+              <footer class="blockquote-footer">Emily White</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Bootstrap) -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 FictionalCo. All rights reserved.</p>
+      <a href="#" class="text-white mx-2">Privacy Policy</a> |
+      <a href="#" class="text-white mx-2">Terms of Service</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
